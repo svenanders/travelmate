@@ -86,7 +86,7 @@
 	}
 	
 	function findFood(loc) {
-		var url = SEARCH_URL + '&ll=' + loc.lat + ',' + loc.lon + '&query=coffee&limit=4&v=' + yyyymmdd();
+		var url = SEARCH_URL + '&ll=' + loc.lat + ',' + loc.lon + '&query=kaffe&limit=6&v=' + yyyymmdd();
 		console.log(url);
 
 		var xhr = new XMLHttpRequest();
